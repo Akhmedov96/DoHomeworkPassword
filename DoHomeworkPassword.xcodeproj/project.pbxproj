@@ -13,6 +13,7 @@
 		52B235D82A109AEB00DB0ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B235D62A109AEB00DB0ED6 /* Main.storyboard */; };
 		52B235DA2A109AED00DB0ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52B235D92A109AED00DB0ED6 /* Assets.xcassets */; };
 		52B235DD2A109AED00DB0ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52B235DB2A109AED00DB0ED6 /* LaunchScreen.storyboard */; };
+		52B235E62A10DA0B00DB0ED6 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52B235E52A10DA0B00DB0ED6 /* LogInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		52B235D92A109AED00DB0ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52B235DC2A109AED00DB0ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52B235DE2A109AED00DB0ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52B235E52A10DA0B00DB0ED6 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				52B235D02A109AEB00DB0ED6 /* AppDelegate.swift */,
 				52B235D22A109AEB00DB0ED6 /* SceneDelegate.swift */,
 				52B235D42A109AEB00DB0ED6 /* ViewController.swift */,
+				52B235E52A10DA0B00DB0ED6 /* LogInViewController.swift */,
 				52B235D62A109AEB00DB0ED6 /* Main.storyboard */,
 				52B235D92A109AED00DB0ED6 /* Assets.xcassets */,
 				52B235DB2A109AED00DB0ED6 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52B235E62A10DA0B00DB0ED6 /* LogInViewController.swift in Sources */,
 				52B235D52A109AEB00DB0ED6 /* ViewController.swift in Sources */,
 				52B235D12A109AEB00DB0ED6 /* AppDelegate.swift in Sources */,
 				52B235D32A109AEB00DB0ED6 /* SceneDelegate.swift in Sources */,
@@ -302,9 +306,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icodelessons.DoHomeworkPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -330,9 +337,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = ru.icodelessons.DoHomeworkPassword;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
